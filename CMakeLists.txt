@@ -55,7 +55,8 @@ target_include_directories(memoria PRIVATE
 
 # Add any user requested libraries
 target_link_libraries(memoria 
-        
+        hardware_pwm
+        hardware_i2c
         )
 
 pico_add_extra_outputs(memoria)
