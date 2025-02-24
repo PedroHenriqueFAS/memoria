@@ -35,7 +35,9 @@ pico_sdk_init()
 
 # Add executable. Default name is the project name, version 0.1
 
-add_executable(memoria memoria.c )
+file(GLOB LIBSOURCES "lib/*.c")
+
+add_executable(memoria memoria.c ${LIBSOURCES} ${ASSETSOURCERS})
 
 pico_set_program_name(memoria "memoria")
 pico_set_program_version(memoria "0.1")
