@@ -210,7 +210,7 @@ int64_t exibir_mensagem_timeout_callback(alarm_id_t alarm_id, void *user_data) {
     cor = !cor;
     ssd1306_fill(&ssd, !cor);
     ssd1306_rect(&ssd, 3, 3, 122, 58, cor, !cor);
-    ssd1306_draw_string(&ssd, "Tempo Esgotado", 9, 25);
+    ssd1306_draw_string(&ssd, "Inicio de jogo", 9, 25);
     ssd1306_send_data(&ssd);
     return 0;
 }
