@@ -62,7 +62,6 @@ target_link_libraries(memoria
         hardware_pwm
         hardware_i2c
         hardware_pio
-        hardware_sync
         )
 
 pico_add_extra_outputs(memoria)
