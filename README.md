@@ -57,7 +57,7 @@ Este é um jogo de memória desenvolvido para o Raspberry Pi Pico W, onde o joga
 1. Clone o repositório do projeto:
    ```sh
    git clone https://github.com/PedroHenriqueFAS/memoria
-   cd ADC_Joystick
+   cd memoria
    ```
 2. Crie um diretório de build e entre nele:
    ```sh
